@@ -71,8 +71,8 @@ jspm_packages
 *.tgz
 *.xml
 .DS_Store
-.idea
 .project
+.idea
 .strong-pm
 coverage
 node_modules
