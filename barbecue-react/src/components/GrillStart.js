@@ -1,16 +1,18 @@
 import React, { Component } from 'react';
+import Layout from './Layout';
 
 class GrillStart extends Component {
     render() {
         return (
+
+
             <div className="GrillStart">
-                <div className="GrillStart-header">
-                    <h2>Welcome to GrillStart</h2>
-                </div>
+
+                <p>Heisse Grills in deiner nähe</p>
                 <p className="Grill-intro">
-                    Hat der scheiss jetzt funktioniert?
                 </p>
             </div>
+
         );
     }
 }
