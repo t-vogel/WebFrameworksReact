@@ -6,7 +6,7 @@ class GrillStart extends Component {
     render() {
         return (
 
-<Layout>
+        <Layout>
 
             <div className="GrillStart">
 
@@ -21,9 +21,11 @@ class GrillStart extends Component {
                 <p className="Grill-intro">
                 </p>
             </div>
+
     <p style={{paddingTop:"350px"}}>Liste mit Grills mit deiner Nähe:</p>
     <li> Grill Dummy </li>
 </Layout>
+
         );
     }
 }
