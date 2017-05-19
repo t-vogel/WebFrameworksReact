@@ -15,13 +15,14 @@ class GrillStart extends Component {
                 <Map style={{height:"300px"}} google={this.props.google} zoom={14}>
 
                 </Map>
-                <p>Liste mit Grills mit deiner Nähe:</p>
-                <li> Grill Dummy </li>
+
 
 
                 <p className="Grill-intro">
                 </p>
             </div>
+    <p style={{paddingTop:"350px"}}>Liste mit Grills mit deiner Nähe:</p>
+    <li> Grill Dummy </li>
 </Layout>
         );
     }
