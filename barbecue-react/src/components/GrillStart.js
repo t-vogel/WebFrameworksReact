@@ -12,7 +12,6 @@ class GrillStart extends Component {
                 <p className="Grill-intro">
                 </p>
             </div>
-
         );
     }
 }
