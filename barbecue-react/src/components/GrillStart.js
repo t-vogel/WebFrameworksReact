@@ -5,14 +5,14 @@ class GrillStart extends Component {
     render() {
         return (
 
-
+        <Layout>
             <div className="GrillStart">
 
                 <p>Heisse Grills in deiner nähe</p>
                 <p className="Grill-intro">
                 </p>
             </div>
-
+        </Layout>
         );
     }
 }
