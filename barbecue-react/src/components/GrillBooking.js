@@ -12,9 +12,13 @@ class GrillBooking extends React.Component {
         super(props);
         this.state = {value: "", prename: "", mail: "", standort: "", grillArt: "", mietpreis: "" };
 
-
+        this.handleGrillartChange = this.handleGrillartChange.bind(this);
+        this.handleMailChange = this.handleMailChange.bind(this);
+        this.handlePrenameChange = this.handlePrenameChange.bind(this);
+        this.handleStandortChange = this.handleStandortChange.bind(this);
         this.handleChange = this.handleChange.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
+        this.handleMietpreisChange= this.handleMietpreisChange.bind(this);
     }
 
     handleChange(event) {
@@ -23,7 +27,7 @@ class GrillBooking extends React.Component {
 
     handleSubmit(event) {
 
-        fetch("http://localhost:3000/api/",
+        fetch("http://localhost:3000/api/grills",
         {
                 headers: {
                     'Accept': 'application/json',
@@ -69,7 +73,7 @@ class GrillBooking extends React.Component {
                 <fieldset style={{borderRadius: 15}}>
 
 
-                    <div style={{textAlign: "center", backgroundColor: "white", padding: 10, margin: 10, maxWidth: "match-parent", borderRadius: 15}}>
+                    <div style={{textAlign: "center", backgroundColor: "#000", padding: 10, margin: 10, maxWidth: "match-parent", borderRadius: 15}}>
                 <h1 style={{textAlign: "center", font: "Nunito"}} className="title">Einen Grill Verleihen</h1>
 
 
